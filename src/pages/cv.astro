@@ -3,13 +3,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
-<BaseLayout title = "Resume">
+<BaseLayout title="Resume">
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Fullstack developer with 8 years + of experience in web development. Knowledge of various programming
+    Fullstack developer with 10 years + of experience in web development. Knowledge of various programming
     languages and frameworks. Mainly worked with Angular and Java/Spring.
   </div>
 
@@ -21,37 +21,32 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <TimeLineElement
       title="Senior Full Stack Developer at rinf.tech"
       subtitle="From 2021"
-      desc="Worked mainly on two internal banking applications. I worked on developing common reusable components in Angular but also worked on backend API. I mentored a few junior developers and also discovered and learned GraphQL."
-      architecture="I worked on frontend with Angular 9 and the company's common components library to create the UI. We used NgRx store to manage the state of the application. For the authentication we used a remote Keycloak server that provided a JWT. The backend architecture was composed of multiple spring microservices and one workflow managing service built with jBPM."
-      technologies="Java/Spring Boot, Angular, NgRx GraphQL, Jenkins, Fabric"
+      desc="In this role, I focused on two key internal banking applications. My main work involved building reusable common components in Angular for the user interface, alongside developing the backend API. I also had the opportunity to mentor a few junior developers and expanded my skills by learning GraphQL."
+      technologies="Angular 9, NgRx (for state management), Java/Spring Boot, GraphQL, Keycloak (for JWT authentication), Jenkins, Fabric, jBPM/Camunda (for workflow management)."
     />
     <TimeLineElement
       title="Senior Full Stack Developer at Extia Romania"
       subtitle="From 2020 to 2021"
-      desc="Worked solely on creating a new portal UI based on an old one for a telco company. I participated in the integration of the backend with the frontend, designing the API and the authentication flow. Worked with the design team to build a new portal from scratch using Angular 9 with the Nebular component framework."
-      architecture="I worked on frontend with Angular 9 and the Nebular framework and started off with a components pack named ngx-admin which I heavily modified. For the backend I used the Spring Cloud pack to design a microservices architecture composed of a config server, an eureka server, a gateway server and various microservices that communicated either with the MySQL database or external services. For authentication and authorization there was an OAuth2 flow with JWTs that were verified and emitted by a Keycloak server. The services were deployed as Docker containers."
-      technologies="Angular 9, Nebular, NgRx, Spring Cloud, MySQL, OAuth2, Keycloak, Docker"
+      desc="I was entirely dedicated to building a new portal UI for a telco company, redesigning it from an older version. I helped with the integration of the backend and frontend, including designing the API and the authentication process. I collaborated with the design team to create the new portal using Angular 9 and the Nebular component framework. On the backend, I designed a microservices architecture using Spring Cloud, which included a config server, Eureka server, gateway server, and various microservices. These communicated with a MySQL database or external services. OAuth2 with Keycloak was used for authentication and authorization. All services were deployed as Docker containers."
+      technologies="Angular 9, Nebular, NgRx, Spring Cloud, MySQL, OAuth2, Keycloak, Docker."
     />
     <TimeLineElement
       title="Frontend developer at Deloitte Digital"
       subtitle="From 2018 to 2020"
-      desc="Worked on maintaining and developing new features on an existing e-commerce web application. The team was international with half of it in Romania and half in UK. I worked within an Agile lead environment with continuous integration as a process of development."
-      architecture="I built my project using Gradle locally, and Jenkins for the test environments. Higher environments were hosted on AWS where we used Splunk for logging purposes. The application was split into Docker containers. We used Jira for task management and Bitbucket for code management. I used IntelliJ as an IDE, for the front-end i used Adobe Experience Manager as a content management system coupled with jQuery and SASS. For the back-end we used the Hybris platform extended by microservices to complement the missing functionality. I tested my code using Karma and Jasmine."
-      technologies="jQuery, SASS"
+      desc="I worked on maintaining and developing new features for an existing e-commerce web application. This was an international team, and we used an Agile development process with continuous integration. I built my projects using Gradle locally and Jenkins for test environments. Higher environments were hosted on AWS, and we used Splunk for logging. The application was set up in Docker containers. We used Jira for task management and Bitbucket for code. My frontend work involved Adobe Experience Manager as a content management system, coupled with jQuery and SASS. The backend used the Hybris platform, extended by microservices for extra functionality. I used Karma and Jasmine for testing my code."
+      technologies=" jQuery, SASS, Adobe Experience Manager, Hybris, Docker, Jenkins, AWS, Splunk."
     />
     <TimeLineElement
       title="Java Developer at Unicredit Integrated Solutions"
       subtitle="From 2016 to 2018"
-      desc="I worked as a developer for the bank applications aimed only at employees of the bank. I was involved in different projects each one being some kind of financial application."
-      architecture="I used Eclipse as an IDE, I programmed in Java mainly using in one project JavaEE, in another Spring. I worked with Teradata SQL and SQL Server as databases, being modeled in Java using JPA with the Hibernate implementation. For the front-end i used JSF and different frameworks like RichFaces and PrimeFaces."
-      technologies="Java/Spring, JSF, Hibernate, SQL Server"
+      desc="My role involved developing internal banking applications for employees. I worked on various financial projects, primarily programming in Java, specifically using JavaEE in one project and Spring in another. I worked with Teradata SQL and SQL Server databases, modeling them in Java using JPA with Hibernate. For the frontend, I used JSF with frameworks like RichFaces and PrimeFaces."
+      technologies="Java/Spring, JSF, Hibernate, SQL Server, Teradata SQL."
     />
     <TimeLineElement
       title="Junior Java Developer at ALTEN Romania"
       subtitle="From 2014 to 2016"
-      desc="I worked on two projects here. The first one was the maintenance of a banking customer application. The second one was developing an e-commerce application from the ground up that allows creation of bills."
-      architecture="I used Eclipse as an IDE. I worked on the back-end with JavaEE but mainly pure Java. For the databases I worked with MySQL and SQL Server, and for the servers i used were LifeRay and WebSphere. For the front-end i used JSF and PrimeFaces relating to Java, and for Javascript i worked with angularjs and jQuery."
-      technologies="Java, JSF, PrimeFaces, LifeRay, angularjs, jQuery"
+      desc="I worked on two projects here. The first was maintaining a banking customer application. The second involved developing an e-commerce application from scratch that allowed the creation of bills. My backend work was in JavaEE. I worked with MySQL and SQL Server for databases, and used LifeRay and WebSphere as servers. For the frontend, I used JSF and PrimeFaces related to Java, and also worked with AngularJS and jQuery for JavaScript."
+      technologies="Java, JSF, PrimeFaces, LifeRay, AngularJS, jQuery, MySQL, SQL Server."
     />
   </div>
 
@@ -60,21 +55,17 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>English</li>
-    <li>JavaScript</li>
-    <li>TypeScript</li>
+    <li>Java</li>
+    <li>Angular</li>
     <li>MySQL</li>
     <li>GraphQL</li>
     <li>SQL Server</li>
-    <li>SQL Server</li>
-    <li>Java</li>
     <li>Spring</li>
     <li>Spring Boot</li>
     <li>Nebular</li>
     <li>CSS</li>
     <li>SASS</li>
     <li>HTML</li>
-    <li>Angular</li>
     <li>NgRx</li>
     <li>AngularJS</li>
     <li>Bootstrap</li>
@@ -83,5 +74,8 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Jira</li>
     <li>Bitbucket</li>
     <li>Scrum</li>
+    <li>TypeScript</li>
+    <li>JavaScript</li>
+    <li>English</li>
   </ul>
 </BaseLayout>

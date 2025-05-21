@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://brotundu.solutions',
+  site: 'https://brotundu.com',
   integrations: [mdx(), sitemap(), tailwind()]
 });

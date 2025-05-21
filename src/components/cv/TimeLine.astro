@@ -1,5 +1,5 @@
 ---
-const { title, subtitle, desc, architecture, technologies } = Astro.props;
+const { title, subtitle, desc, technologies } = Astro.props;
 ---
 
 <div class="flex">
@@ -14,10 +14,7 @@ const { title, subtitle, desc, architecture, technologies } = Astro.props;
       👨🏻‍💻{desc}
     </p>
     <p class="my-3 text-justify">
-      🧱{architecture}
-    </p>
-    <p class="my-3 text-justify">
-      🌐Technologies: {technologies}
+      🌐Key Technologies: {technologies}
     </p>
   </div>
 </div>
