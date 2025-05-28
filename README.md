@@ -1,4 +1,5 @@
-##### *Readme copied from the original repo
+##### \*Readme copied from the original repo
+
 # Astro Modern Personal Website
 
 ![Astro Modern Personal Website](public/social_img.png)
@@ -31,8 +32,7 @@ npm run dev
 
 ## Project Strucutre
 
-
-``` php
+```php
 ├── src/
 │   ├── components/
 │   │   ├── cs/
@@ -142,6 +142,7 @@ Include `BaseLayout` in each page you add and `PostLayout` to your post pages.
 You can add a [content collection](https://docs.astro.build/en/guides/content-collections/) in `/content/' folder, you will need add it at config.ts.
 
 #### config.ts
+
 Where you need to define your content collections, we define our content schemas too.
 
 #### Blog
@@ -234,7 +235,7 @@ Suggestions and pull requests are welcomed! Feel free to open a discussion or an
 
 One of the best ways of contribute is to grab a [bug report o feature suggestion](https://github.com/manuelernestog/astro-modern-personal-website/issues) that has been marked `accepted` and dig in.
 
-Please be wary of working on issues *not* marked as `accepted`. Just because someone has created an issue doesn't mean we'll accept a pull request for it.
+Please be wary of working on issues _not_ marked as `accepted`. Just because someone has created an issue doesn't mean we'll accept a pull request for it.
 
 ## License
 

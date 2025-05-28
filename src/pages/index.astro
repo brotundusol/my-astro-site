@@ -1,42 +1,20 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
 <BaseLayout>
-
     <div class="pb-12 mt-5">
-      <div class="text-xl py-1">Hey there 👋</div>
-      <div class="text-5xl font-bold">My name is Bogdan Rotundu</div>
-      <div class="text-3xl py-3 font-bold">Senior Fullstack Software Developer</div>
-      <div class="py-2">
-        <text class="text-lg">
-          I am a dedicated and skilled developer with a passion for new technology and a strong background in software development.
-          With over 10 years of experience as a Fullstack developer, I have a proven track record of delivering high-quality web applications.
-          My main languages are Java and Angular but I am always looking for new challenges and opportunities to learn and grow.
-          </text
-        >
-      </div>
+      <h1 class="text-3xl font-medium">Hey there 👋</h1>
+      <div class="ml-10 my-10 text-6xl font-bold">I'm <span class="text-angular-blue">Bogdan</span></div>
+      <div class="text-3xl py-3 font-semibold">Senior Fullstack Software Developer</div>
       <div class="mt-6">
-        <a class="btn" href="mailto:hello@brotundu.com" target="_blank"> Let's connect!</a>
+        <a
+          class="inline-block bg-angular-blue hover:bg-blue-800 text-white font-bold px-10 py-5 rounded-2xl shadow transition-colors duration-200"
+          href="mailto:hello@brotundu.com"
+          target="_blank"
+        >
+          LET'S CONNECT!
+        </a>
       </div>
     </div>
-
-    <div>
-      <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
-    </div>
-
-    <HorizontalCard
-      title="My personal website"
-      img="/post_img.webp"
-      desc="Ventured a bit into the world of Astro to create my personal website. I really liked the responsiveness and speed of rendering which got me to try it out myself."
-      url="#"
-    />
-    <HorizontalCard
-      title="Wordle project"
-      img="/wordle.png"
-      desc="Part of the training that i'm doing on learning React, this exercise taught me the basics of the library, state and props."
-      url="https://github.com/brotundusol/project-wordle"
-    />
-
 </BaseLayout>
